@@ -1,0 +1,45 @@
+ /*****************************selector-styling***************************************************************/
+        body{ 
+            background-color:teal  ;
+
+        }
+        hr{
+            background-color: teal;
+            border-style: none;
+            border-top-style: dotted ;
+            border-color: black;
+            border-width: 5px ;
+            /* height: 0px; */
+            width: 10%;
+        }
+        img{
+            display: block;
+            height: 10%;
+            width: 50%;
+            /* background-color:aquamarine; */
+            margin-left: auto;
+            margin-right: auto;
+            
+        }
+        h3{
+            color: aquamarine;
+        }
+        h4{
+            color: aquamarine;
+        }
+
+        h1{
+            display: block;
+            margin-left: auto;
+            margin-right:auto;
+            background-color: azure;
+        }
+/********************************class-styling************************************************************************/
+.image:hover{
+    background-color:goldenrod; /* we can create classs and stlyle that particular eliment like this*/
+}
+    
+/*************************************id styling***********************************************************************/
+#about:hover{
+    background-color: goldenrod;
+}

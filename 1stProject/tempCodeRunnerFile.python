@@ -1,0 +1,19 @@
+n=int(input())
+s=input()
+s=[str(i) for i in s]
+count=0
+for i in range(len(s)):
+    sub=s[:(i+1)]
+    # if i==0:
+    #     sub=s[:i+1]
+    # else:
+    #     sub=s[:i+1]
+    if sub.count(sub[i])<=(len(s[:(i+1)])/2):
+        print("YES")
+        print("".join([str(i) for i in sub]))
+        exit()
+            
+else:
+    print("NO")
+    
+
